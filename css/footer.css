@@ -1,11 +1,48 @@
 footer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
     position: absolute;
     left: 0;
     right: 0;
     bottom:0;
-    height: 600px;
+    height: 170px;
+    padding: 30px;
 
     background-color: rgba(0, 0, 0, 0.925);
+}
+
+.f-row1, .f-row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Cantarell, Arial;
+    font-size: 15px;
+    font-weight: 100;
+    margin: auto 7px auto 7px;
+}
+
+.f-row1 div {
+    margin: 20px;
+    color: #A4A4A4;
+}
+
+.reach {
+    letter-spacing: 2px;
+}
+
+.f-row2 a {
+    color: #F7F7F7;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 16px;
+    transition: color, .2s;
+    flex-shrink: 0;
+}
+
+.f-row2 a:hover {
+    color: #386851;
 }

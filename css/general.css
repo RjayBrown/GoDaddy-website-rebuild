@@ -4,11 +4,11 @@ body {
     font-weight: 100;
 
     margin: 0;
-    padding-top: 125px;
+    /* padding-top: 95px; */
     /* padding-left: 150px; */
     /* padding-bottom: 75px; */
     /* padding-right: 75px; */
-    height: 3000px;
+    height: 5000px;
     position: relative;
 }
 
@@ -16,12 +16,12 @@ h1 {
     font-family: Montserrat, Arial;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3 {
     font-family: Montserrat, Arial;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -34,19 +34,27 @@ h3 {
     align-items: center;
 
     margin: 0;
-    padding: 100px;
+    padding: 120px 0 120px 120px;
 
     color: white;
     border: solid 1px gray;
 }
 
+.section-text {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
 .section-text, .section-image {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
 }
 
-p {
+p, div ul {
+    color: #A4A4A4;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    font-weight: 100;
 }
