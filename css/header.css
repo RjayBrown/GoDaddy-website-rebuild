@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 128px;
+    z-index: 100;
+
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+header div img {
+    width: 175px;
+    margin: 21px 0 21px 65px;
+}
+
+.menu a {
+    color: #F7F7F7;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 16px;
+    transition: color, .15s;
+}
+
+.menu a:hover {
+    color: lightgrey;
+}

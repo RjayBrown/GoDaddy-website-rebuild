@@ -1,0 +1,22 @@
+.base-btn {
+    cursor: pointer;
+
+    background-color: blue;
+    color: white;
+    border: solid 1px blue;
+    border-radius: 9px;
+
+    height: 18px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.base-btn:hover {
+    background-color: rgba(0, 0, 255, 0.85);
+}
+
+.base-btn:active {
+    color: #fff;
+    background-color: blue;
+    border: solid 1px blue;
+}
