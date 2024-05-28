@@ -8,7 +8,7 @@ body {
     /* padding-left: 150px; */
     /* padding-bottom: 75px; */
     /* padding-right: 75px; */
-    height: 5000px;
+    height: 4000px;
     position: relative;
 }
 
@@ -16,13 +16,26 @@ h1 {
     font-family: Montserrat, Arial;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 h3 {
     font-family: Montserrat, Arial;
     font-weight: 500;
     letter-spacing: 1px;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main video {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .section-container {
@@ -34,22 +47,24 @@ h3 {
     align-items: center;
 
     margin: 0;
-    padding: 120px 0 120px 120px;
+    padding: 120px 0 120px 0;
 
     color: white;
-    border: solid 1px gray;
+    border: 3px solid #7f6123;
 }
 
 .section-text {
     display: flex;
     flex-direction: column;
     width: 45%;
+    padding: 0 120px 0 120px;
+    font-size: 18px;
 }
 
-.section-text, .section-image {
+.section-image {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 50%;
 }
 
 p, div ul {
@@ -57,4 +72,56 @@ p, div ul {
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 100;
+}
+
+.section-container2 {
+    background-color: #F7F7F7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-container2 h1 {
+    color: #161616;
+}
+
+.img-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 56px;
+
+    color: #161616;
+    border: 3px solid #7f6123;
+}
+
+.img-links div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+    text-align: center;
+    height: 300px;
+    border: 3px solid #7f6123;
+    margin: 20px;
+
+    color: #F7F7F7;
+    background-color: #161616;
+
+    font-family: Montserrat, Arial;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 32px;
+
+    transition: background-color, .2s;
+}
+
+.img-links div:hover {
+    color: #F7F7F7;
+    background-color: #4c4c4c;
+
+    margin: 20px;
 }
